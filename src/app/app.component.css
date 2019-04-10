@@ -1,0 +1,32 @@
+.btn-pattern{
+    width: 270px;
+}
+.card{
+    margin: 100px auto;
+    width: 400px;
+}
+.card-header, .card-body{
+    text-align: center
+}
+.card-body{
+    margin: auto;
+}
+.fb-img, .gg-img{
+    width: 30px;
+    height: 30px;
+}
+.fb-img{
+    margin-right: 16px;
+}
+.gg-img{
+    margin-right: 28px;
+}
+.bt-logout a, .bt-logout a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.bt-logout{
+    color: #fff;
+    background-color: yellowgreen;
+    box-shadow: 2px 2px 2px #090;
+}

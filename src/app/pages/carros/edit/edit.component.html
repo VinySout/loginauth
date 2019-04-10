@@ -1,0 +1,24 @@
+<form (ngSubmit)="onSubmit()">
+  <div class="form-group">
+    <label>Marca</label>
+    <input type="text" class="form-control" [(ngModel)]="carro.marca" name="nome" />
+  </div>
+  <div class="form-group">
+      <label>Modelo</label>
+      <input type="text" class="form-control" [(ngModel)]="carro.modelo" name="modelo" />
+  </div>
+  <div class="form-group">
+      <label>Cor</label>
+      <input type="text" class="form-control" [(ngModel)]="carro.cor" name="cor" />
+  </div>
+  <div class="form-group">
+      <label>Placa</label>
+      <input type="text" class="form-control" [(ngModel)]="carro.placa" name="placa" />
+  </div>
+  <div class="form-group">
+      <label>Proprietário</label>
+      <input type="text" class="form-control" [(ngModel)]="carro.dono" name="dono" />
+  </div>
+  <button type="submit" class="btn btn-primary">Salvar</button>
+</form>
+

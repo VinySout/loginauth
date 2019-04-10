@@ -1,0 +1,14 @@
+<div class="card mt-2" *ngFor="let carro of carros | async">
+  <div class="card-body">
+    <h5 class="card-title">{{ carro.dono }}</h5>
+    <p class="card-text">{{ carro.marca }}</p>
+    <p class="card-text">{{ carro.modelo }}</p>
+    <p class="card-text">{{ carro.cor }}</p>
+    <p class="card-text">{{ carro.placa }}</p>
+  </div>
+  <div class="card-footer">
+    <button type="button" class="btn btn-default" (click)="edit(carro, carro.key)" routerLink="/addCarro">Editar</button>
+    <button type="button" class="btn btn-danger ml-2" (click)="delete(carro.key)">Excluir</button>
+  </div>
+
+</div>
